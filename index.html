@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <script>
        function ab(){
-        window.location.href="about.html";
+        window.location.href="pic1.jpg";
        }
 
     </script>
@@ -17,7 +17,7 @@
        }
         body{
           background-color: rgb(185, 219, 219);
-            padding: 100px;
+          /*oneline removed*/
         }
        .but{
          padding:15px;
@@ -29,9 +29,42 @@
        #q2{
         border-radius: 20px;
        }
+
+
+       li{
+        list-style-type: none;
+        display: inline;
+        font-size: 20px;
+        padding: 10px;
+       }
+
+       #we{
+        font-size: 3em;
+        display: inline;
+        padding-right: 40%;
+       }
+
+       .ar{
+        width: 81pc;
+        height: fit-content;
+        background-color:rgb(59, 134, 134);
+       }
+
+       a{
+        text-decoration: none;
+        color: rgb(53, 51, 51);
+       }
     </style>
  </head>
  <body>
+  <div class="ar">
+  <ul>
+    <li><h1 id="we">PORTFOLIO</h1></li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="skill.html">Skills</a></li>
+    <li><a href="mailto:ashikass061@gmail.com"><img src="ico.jpg" width="30px" style="border-radius: 10px;"></a></li>
+  </ul>
+</div>
   <center> 
     <table>
         
@@ -62,23 +95,14 @@
          <tr>
           <td>
             <center>
-             <a href="about.html">
-              <input type="button" value="About me" class="but" onclick="ab();"><br><br>
-             </a>
+            
+              <input type="button" value="Resume" class="but" onclick="ab();"><br><br>
+             
             </center>
           </td>
          </tr>
           <br><br>
-         <tr>
-             <td> 
-             <center>
-                 <a href="mailto:abina1427@gmail.com"><img src="1w.png" width="80px" id="we"></a> 
-                
-             </center>
-             </td>
-           
-
-         </tr>
+         
         
     </table>
 </center>
